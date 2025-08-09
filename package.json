@@ -1,12 +1,23 @@
 {
   "name": "mini-project-3-api",
   "version": "1.0.0",
-  "description": "Coffee Shops API (Express + Sequelize + MySQL) with Geoapify bootstrap",
+  "description": "Mini Project 3 - Coffee Shops API using Express, Sequelize, MySQL, and Geoapify",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
+  "keywords": [
+    "express",
+    "sequelize",
+    "mysql",
+    "geoapify",
+    "api",
+    "mvc",
+    "swagger"
+  ],
+  "author": "Darwin Casasola",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.7.0",
     "dotenv": "^16.4.5",
