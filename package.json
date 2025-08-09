@@ -1,13 +1,22 @@
 {
   "name": "mini-project-3-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Coffee Shops API (Express + Sequelize + MySQL) with Geoapify bootstrap",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.0",
+    "sequelize": "^6.37.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
